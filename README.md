@@ -47,3 +47,10 @@
 *Last updated: 2026-09-15* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [1185-day-of-the-week](https://github.com/vtu30003-gif/pst-java-week-3/tree/master/1185-day-of-the-week) |
+<!---LeetCode Topics End-->
