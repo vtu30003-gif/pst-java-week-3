@@ -40,22 +40,22 @@ Output: [0]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 91.71%)  
-**Memory:** 47.3 MB (beats 95.92%)  
-**Submitted:** 2026-09-15T08:52:26.049Z  
+**Runtime:** 2 ms (beats 91.68%)  
+**Memory:** 47.5 MB (beats 87.72%)  
+**Submitted:** 2026-09-21T18:51:48.545Z  
 
 ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int insertPos = 0;
-        
+
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
-                // Swap non-zero element with the element at insertPos
+                // Swap current non-zero element with the position at insertPos
                 int temp = nums[insertPos];
                 nums[insertPos] = nums[i];
                 nums[i] = temp;
-                
+
                 insertPos++;
             }
         }
